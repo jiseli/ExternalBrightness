@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E21434C11CCEB90300E16D74 /* Icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = E21434BC1CCEB90300E16D74 /* Icon16.png */; };
+		E21434C21CCEB90300E16D74 /* Icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = E21434BD1CCEB90300E16D74 /* Icon32.png */; };
+		E21434C31CCEB90300E16D74 /* Icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = E21434BE1CCEB90300E16D74 /* Icon128.png */; };
+		E21434C41CCEB90300E16D74 /* Icon256.png in Resources */ = {isa = PBXBuildFile; fileRef = E21434BF1CCEB90300E16D74 /* Icon256.png */; };
+		E21434C51CCEB90300E16D74 /* Icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = E21434C01CCEB90300E16D74 /* Icon512.png */; };
+		E25748A11CCE0FAD003727DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25748A01CCE0FAD003727DD /* AppDelegate.m */; };
+		E25748A41CCE0FAD003727DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E25748A31CCE0FAD003727DD /* main.m */; };
+		E25748A91CCE0FAD003727DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25748A81CCE0FAD003727DD /* Assets.xcassets */; };
+		E25748AC1CCE0FAD003727DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25748AA1CCE0FAD003727DD /* Main.storyboard */; };
+		E25748B71CCE0FAD003727DD /* ExternalBrightnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25748B61CCE0FAD003727DD /* ExternalBrightnessTests.m */; };
+		E25748C21CCE0FAD003727DD /* ExternalBrightnessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25748C11CCE0FAD003727DD /* ExternalBrightnessUITests.m */; };
+		E25748D11CCE1761003727DD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25748D01CCE1761003727DD /* IOKit.framework */; };
+		E25748D41CCE179D003727DD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25748D31CCE179D003727DD /* ApplicationServices.framework */; };
+		E25748D61CCE17B2003727DD /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25748D51CCE17B2003727DD /* AppKit.framework */; };
+		E25748D81CCE17C2003727DD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25748D71CCE17C2003727DD /* CoreData.framework */; };
+		E25748DA1CCE17D6003727DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25748D91CCE17D6003727DD /* Foundation.framework */; };
+		E25748DC1CCE17F5003727DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25748DB1CCE17F5003727DD /* Cocoa.framework */; };
+		E2C519411CCEB9F6009AB169 /* Icon16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C5193C1CCEB9F6009AB169 /* Icon16@2x.png */; };
+		E2C519421CCEB9F6009AB169 /* Icon32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C5193D1CCEB9F6009AB169 /* Icon32@2x.png */; };
+		E2C519431CCEB9F6009AB169 /* Icon128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C5193E1CCEB9F6009AB169 /* Icon128@2x.png */; };
+		E2C519441CCEB9F6009AB169 /* Icon256@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C5193F1CCEB9F6009AB169 /* Icon256@2x.png */; };
+		E2C519451CCEB9F6009AB169 /* Icon512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C519401CCEB9F6009AB169 /* Icon512@2x.png */; };
+		E2E505DF1CCF94070090D60F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E2E505DE1CCF94070090D60F /* Credits.rtf */; };
+		E2EEF1E51CCEB02300DA063E /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = E2EEF1E31CCEB02200DA063E /* Status.png */; };
+		E2EEF1E61CCEB02300DA063E /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2EEF1E41CCEB02300DA063E /* Status@2x.png */; };
+		E2EF5B591CCE1CFB007C4CD3 /* libddc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EF5B581CCE1CFB007C4CD3 /* libddc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E25748B31CCE0FAD003727DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25748941CCE0FAD003727DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E257489B1CCE0FAD003727DD;
+			remoteInfo = ExternalBrightness;
+		};
+		E25748BE1CCE0FAD003727DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25748941CCE0FAD003727DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E257489B1CCE0FAD003727DD;
+			remoteInfo = ExternalBrightness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E21434BC1CCEB90300E16D74 /* Icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon16.png; path = ExternalBrightness/Icon16.png; sourceTree = "<group>"; };
+		E21434BD1CCEB90300E16D74 /* Icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon32.png; path = ExternalBrightness/Icon32.png; sourceTree = "<group>"; };
+		E21434BE1CCEB90300E16D74 /* Icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon128.png; path = ExternalBrightness/Icon128.png; sourceTree = "<group>"; };
+		E21434BF1CCEB90300E16D74 /* Icon256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon256.png; path = ExternalBrightness/Icon256.png; sourceTree = "<group>"; };
+		E21434C01CCEB90300E16D74 /* Icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon512.png; path = ExternalBrightness/Icon512.png; sourceTree = "<group>"; };
+		E257489C1CCE0FAD003727DD /* External Brightness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "External Brightness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E257489F1CCE0FAD003727DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E25748A01CCE0FAD003727DD /* AppDelegate.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; tabWidth = 2; };
+		E25748A31CCE0FAD003727DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E25748A81CCE0FAD003727DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E25748AB1CCE0FAD003727DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E25748AD1CCE0FAD003727DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25748B21CCE0FAD003727DD /* External Brightness.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "External Brightness.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25748B61CCE0FAD003727DD /* ExternalBrightnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExternalBrightnessTests.m; sourceTree = "<group>"; };
+		E25748B81CCE0FAD003727DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25748BD1CCE0FAD003727DD /* External Brightness.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "External Brightness.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25748C11CCE0FAD003727DD /* ExternalBrightnessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExternalBrightnessUITests.m; sourceTree = "<group>"; };
+		E25748C31CCE0FAD003727DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25748D01CCE1761003727DD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		E25748D31CCE179D003727DD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = ../../../../System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<group>"; };
+		E25748D51CCE17B2003727DD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = ../../../../System/Library/Frameworks/AppKit.framework; sourceTree = "<group>"; };
+		E25748D71CCE17C2003727DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = ../../../../System/Library/Frameworks/CoreData.framework; sourceTree = "<group>"; };
+		E25748D91CCE17D6003727DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = ../../../../System/Library/Frameworks/Foundation.framework; sourceTree = "<group>"; };
+		E25748DB1CCE17F5003727DD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
+		E2C5193C1CCEB9F6009AB169 /* Icon16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon16@2x.png"; path = "ExternalBrightness/Icon16@2x.png"; sourceTree = "<group>"; };
+		E2C5193D1CCEB9F6009AB169 /* Icon32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon32@2x.png"; path = "ExternalBrightness/Icon32@2x.png"; sourceTree = "<group>"; };
+		E2C5193E1CCEB9F6009AB169 /* Icon128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon128@2x.png"; path = "ExternalBrightness/Icon128@2x.png"; sourceTree = "<group>"; };
+		E2C5193F1CCEB9F6009AB169 /* Icon256@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon256@2x.png"; path = "ExternalBrightness/Icon256@2x.png"; sourceTree = "<group>"; };
+		E2C519401CCEB9F6009AB169 /* Icon512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon512@2x.png"; path = "ExternalBrightness/Icon512@2x.png"; sourceTree = "<group>"; };
+		E2E505DE1CCF94070090D60F /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		E2EEF1E31CCEB02200DA063E /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Status.png; path = ExternalBrightness/Status.png; sourceTree = "<group>"; };
+		E2EEF1E41CCEB02300DA063E /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "ExternalBrightness/Status@2x.png"; sourceTree = "<group>"; };
+		E2EF5B581CCE1CFB007C4CD3 /* libddc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libddc.a; sourceTree = "<group>"; };
+		E2EF5B5A1CCE1D0B007C4CD3 /* ddc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ddc.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25748991CCE0FAD003727DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EF5B591CCE1CFB007C4CD3 /* libddc.a in Frameworks */,
+				E25748DA1CCE17D6003727DD /* Foundation.framework in Frameworks */,
+				E25748D61CCE17B2003727DD /* AppKit.framework in Frameworks */,
+				E25748DC1CCE17F5003727DD /* Cocoa.framework in Frameworks */,
+				E25748D81CCE17C2003727DD /* CoreData.framework in Frameworks */,
+				E25748D11CCE1761003727DD /* IOKit.framework in Frameworks */,
+				E25748D41CCE179D003727DD /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25748AF1CCE0FAD003727DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25748BA1CCE0FAD003727DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25748931CCE0FAD003727DD = {
+			isa = PBXGroup;
+			children = (
+				E2C5193C1CCEB9F6009AB169 /* Icon16@2x.png */,
+				E2C5193D1CCEB9F6009AB169 /* Icon32@2x.png */,
+				E2C5193E1CCEB9F6009AB169 /* Icon128@2x.png */,
+				E2C5193F1CCEB9F6009AB169 /* Icon256@2x.png */,
+				E2C519401CCEB9F6009AB169 /* Icon512@2x.png */,
+				E21434BC1CCEB90300E16D74 /* Icon16.png */,
+				E21434BD1CCEB90300E16D74 /* Icon32.png */,
+				E21434BE1CCEB90300E16D74 /* Icon128.png */,
+				E21434BF1CCEB90300E16D74 /* Icon256.png */,
+				E21434C01CCEB90300E16D74 /* Icon512.png */,
+				E2EEF1E31CCEB02200DA063E /* Status.png */,
+				E2EEF1E41CCEB02300DA063E /* Status@2x.png */,
+				E2EF5B5A1CCE1D0B007C4CD3 /* ddc.h */,
+				E257489E1CCE0FAD003727DD /* ExternalBrightness */,
+				E25748D21CCE1769003727DD /* Frameworks */,
+				E25748B51CCE0FAD003727DD /* ExternalBrightnessTests */,
+				E25748C01CCE0FAD003727DD /* ExternalBrightnessUITests */,
+				E257489D1CCE0FAD003727DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E257489D1CCE0FAD003727DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E257489C1CCE0FAD003727DD /* External Brightness.app */,
+				E25748B21CCE0FAD003727DD /* External Brightness.xctest */,
+				E25748BD1CCE0FAD003727DD /* External Brightness.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E257489E1CCE0FAD003727DD /* ExternalBrightness */ = {
+			isa = PBXGroup;
+			children = (
+				E257489F1CCE0FAD003727DD /* AppDelegate.h */,
+				E25748A01CCE0FAD003727DD /* AppDelegate.m */,
+				E25748A81CCE0FAD003727DD /* Assets.xcassets */,
+				E25748AA1CCE0FAD003727DD /* Main.storyboard */,
+				E2E505DE1CCF94070090D60F /* Credits.rtf */,
+				E25748AD1CCE0FAD003727DD /* Info.plist */,
+				E25748A21CCE0FAD003727DD /* Supporting Files */,
+			);
+			path = ExternalBrightness;
+			sourceTree = "<group>";
+		};
+		E25748A21CCE0FAD003727DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25748A31CCE0FAD003727DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E25748B51CCE0FAD003727DD /* ExternalBrightnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				E25748B61CCE0FAD003727DD /* ExternalBrightnessTests.m */,
+				E25748B81CCE0FAD003727DD /* Info.plist */,
+			);
+			path = ExternalBrightnessTests;
+			sourceTree = "<group>";
+		};
+		E25748C01CCE0FAD003727DD /* ExternalBrightnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E25748C11CCE0FAD003727DD /* ExternalBrightnessUITests.m */,
+				E25748C31CCE0FAD003727DD /* Info.plist */,
+			);
+			path = ExternalBrightnessUITests;
+			sourceTree = "<group>";
+		};
+		E25748D21CCE1769003727DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2EF5B581CCE1CFB007C4CD3 /* libddc.a */,
+				E25748DB1CCE17F5003727DD /* Cocoa.framework */,
+				E25748D91CCE17D6003727DD /* Foundation.framework */,
+				E25748D71CCE17C2003727DD /* CoreData.framework */,
+				E25748D51CCE17B2003727DD /* AppKit.framework */,
+				E25748D31CCE179D003727DD /* ApplicationServices.framework */,
+				E25748D01CCE1761003727DD /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E257489B1CCE0FAD003727DD /* External Brightness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25748C61CCE0FAD003727DD /* Build configuration list for PBXNativeTarget "External Brightness" */;
+			buildPhases = (
+				E25748981CCE0FAD003727DD /* Sources */,
+				E25748991CCE0FAD003727DD /* Frameworks */,
+				E257489A1CCE0FAD003727DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "External Brightness";
+			productName = ExternalBrightness;
+			productReference = E257489C1CCE0FAD003727DD /* External Brightness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E25748B11CCE0FAD003727DD /* External BrightnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25748C91CCE0FAD003727DD /* Build configuration list for PBXNativeTarget "External BrightnessTests" */;
+			buildPhases = (
+				E25748AE1CCE0FAD003727DD /* Sources */,
+				E25748AF1CCE0FAD003727DD /* Frameworks */,
+				E25748B01CCE0FAD003727DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25748B41CCE0FAD003727DD /* PBXTargetDependency */,
+			);
+			name = "External BrightnessTests";
+			productName = ExternalBrightnessTests;
+			productReference = E25748B21CCE0FAD003727DD /* External Brightness.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E25748BC1CCE0FAD003727DD /* External BrightnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25748CC1CCE0FAD003727DD /* Build configuration list for PBXNativeTarget "External BrightnessUITests" */;
+			buildPhases = (
+				E25748B91CCE0FAD003727DD /* Sources */,
+				E25748BA1CCE0FAD003727DD /* Frameworks */,
+				E25748BB1CCE0FAD003727DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25748BF1CCE0FAD003727DD /* PBXTargetDependency */,
+			);
+			name = "External BrightnessUITests";
+			productName = ExternalBrightnessUITests;
+			productReference = E25748BD1CCE0FAD003727DD /* External Brightness.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25748941CCE0FAD003727DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Julien Iseli";
+				TargetAttributes = {
+					E257489B1CCE0FAD003727DD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E25748B11CCE0FAD003727DD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E257489B1CCE0FAD003727DD;
+					};
+					E25748BC1CCE0FAD003727DD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E257489B1CCE0FAD003727DD;
+					};
+				};
+			};
+			buildConfigurationList = E25748971CCE0FAD003727DD /* Build configuration list for PBXProject "External Brightness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E25748931CCE0FAD003727DD;
+			productRefGroup = E257489D1CCE0FAD003727DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E257489B1CCE0FAD003727DD /* External Brightness */,
+				E25748B11CCE0FAD003727DD /* External BrightnessTests */,
+				E25748BC1CCE0FAD003727DD /* External BrightnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E257489A1CCE0FAD003727DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EEF1E51CCEB02300DA063E /* Status.png in Resources */,
+				E25748A91CCE0FAD003727DD /* Assets.xcassets in Resources */,
+				E2C519421CCEB9F6009AB169 /* Icon32@2x.png in Resources */,
+				E2EEF1E61CCEB02300DA063E /* Status@2x.png in Resources */,
+				E21434C31CCEB90300E16D74 /* Icon128.png in Resources */,
+				E2C519411CCEB9F6009AB169 /* Icon16@2x.png in Resources */,
+				E21434C41CCEB90300E16D74 /* Icon256.png in Resources */,
+				E2C519431CCEB9F6009AB169 /* Icon128@2x.png in Resources */,
+				E21434C11CCEB90300E16D74 /* Icon16.png in Resources */,
+				E25748AC1CCE0FAD003727DD /* Main.storyboard in Resources */,
+				E2E505DF1CCF94070090D60F /* Credits.rtf in Resources */,
+				E2C519451CCEB9F6009AB169 /* Icon512@2x.png in Resources */,
+				E21434C51CCEB90300E16D74 /* Icon512.png in Resources */,
+				E2C519441CCEB9F6009AB169 /* Icon256@2x.png in Resources */,
+				E21434C21CCEB90300E16D74 /* Icon32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25748B01CCE0FAD003727DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25748BB1CCE0FAD003727DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25748981CCE0FAD003727DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25748A41CCE0FAD003727DD /* main.m in Sources */,
+				E25748A11CCE0FAD003727DD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25748AE1CCE0FAD003727DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25748B71CCE0FAD003727DD /* ExternalBrightnessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25748B91CCE0FAD003727DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25748C21CCE0FAD003727DD /* ExternalBrightnessUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E25748B41CCE0FAD003727DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E257489B1CCE0FAD003727DD /* External Brightness */;
+			targetProxy = E25748B31CCE0FAD003727DD /* PBXContainerItemProxy */;
+		};
+		E25748BF1CCE0FAD003727DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E257489B1CCE0FAD003727DD /* External Brightness */;
+			targetProxy = E25748BE1CCE0FAD003727DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E25748AA1CCE0FAD003727DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25748AB1CCE0FAD003727DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E25748C41CCE0FAD003727DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E25748C51CCE0FAD003727DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E25748C71CCE0FAD003727DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExternalBrightness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiseli.External-Brightness";
+				PRODUCT_NAME = "External Brightness";
+			};
+			name = Debug;
+		};
+		E25748C81CCE0FAD003727DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExternalBrightness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiseli.External-Brightness";
+				PRODUCT_NAME = "External Brightness";
+			};
+			name = Release;
+		};
+		E25748CA1CCE0FAD003727DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExternalBrightnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiseli.ExternalBrightnessTests;
+				PRODUCT_NAME = "External Brightness";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/External Brightness.app/Contents/MacOS/External Brightness";
+			};
+			name = Debug;
+		};
+		E25748CB1CCE0FAD003727DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExternalBrightnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiseli.ExternalBrightnessTests;
+				PRODUCT_NAME = "External Brightness";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/External Brightness.app/Contents/MacOS/External Brightness";
+			};
+			name = Release;
+		};
+		E25748CD1CCE0FAD003727DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExternalBrightnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiseli.ExternalBrightnessUITests;
+				PRODUCT_NAME = "External Brightness";
+				TEST_TARGET_NAME = ExternalBrightness;
+			};
+			name = Debug;
+		};
+		E25748CE1CCE0FAD003727DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExternalBrightnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiseli.ExternalBrightnessUITests;
+				PRODUCT_NAME = "External Brightness";
+				TEST_TARGET_NAME = ExternalBrightness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25748971CCE0FAD003727DD /* Build configuration list for PBXProject "External Brightness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25748C41CCE0FAD003727DD /* Debug */,
+				E25748C51CCE0FAD003727DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25748C61CCE0FAD003727DD /* Build configuration list for PBXNativeTarget "External Brightness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25748C71CCE0FAD003727DD /* Debug */,
+				E25748C81CCE0FAD003727DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25748C91CCE0FAD003727DD /* Build configuration list for PBXNativeTarget "External BrightnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25748CA1CCE0FAD003727DD /* Debug */,
+				E25748CB1CCE0FAD003727DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25748CC1CCE0FAD003727DD /* Build configuration list for PBXNativeTarget "External BrightnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25748CD1CCE0FAD003727DD /* Debug */,
+				E25748CE1CCE0FAD003727DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25748941CCE0FAD003727DD /* Project object */;
+}
