@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
     </dependencies>
     <scenes>
@@ -657,13 +658,13 @@
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="6KC-eP-QKB"/>
                         <menuItem title="Increase Brightness" keyEquivalent="" id="bFx-ph-cbn">
-                            <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                            <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                             <connections>
                                 <action selector="increaseBrightness:" target="Voe-Tx-rLC" id="5OJ-sY-4GW"/>
                             </connections>
                         </menuItem>
                         <menuItem title="Decrease Brightness" keyEquivalent="" id="NDW-jA-aKg">
-                            <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                            <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                             <connections>
                                 <action selector="decreaseBrightness:" target="Voe-Tx-rLC" id="PXZ-Ag-3h6"/>
                             </connections>
@@ -674,61 +675,61 @@
                             <menu key="submenu" title="Brightness" id="2mc-Np-gsp">
                                 <items>
                                     <menuItem title="10%" keyEquivalent="1" id="jwU-LD-ejo">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt10:" target="Voe-Tx-rLC" id="Znn-Yq-I3r"/>
                                         </connections>
                                     </menuItem>
                                     <menuItem title="20%" keyEquivalent="2" id="RvI-f9-EJS">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt20:" target="Voe-Tx-rLC" id="dDE-im-NHz"/>
                                         </connections>
                                     </menuItem>
                                     <menuItem title="30%" keyEquivalent="3" id="9e5-65-hzX">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt30:" target="Voe-Tx-rLC" id="zT4-bG-GBb"/>
                                         </connections>
                                     </menuItem>
                                     <menuItem title="40%" keyEquivalent="4" id="hGW-TE-rZi">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt40:" target="Voe-Tx-rLC" id="m3o-6f-wMh"/>
                                         </connections>
                                     </menuItem>
                                     <menuItem title="50%" keyEquivalent="5" id="dBy-08-7a9">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt50:" target="Voe-Tx-rLC" id="GBf-ef-vsZ"/>
                                         </connections>
                                     </menuItem>
                                     <menuItem title="60%" keyEquivalent="6" id="bYo-Bg-dbk">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt60:" target="Voe-Tx-rLC" id="LmM-Bs-Sbe"/>
                                         </connections>
                                     </menuItem>
                                     <menuItem title="70%" keyEquivalent="7" id="CjO-DV-YRB">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt70:" target="Voe-Tx-rLC" id="EcA-tR-iz3"/>
                                         </connections>
                                     </menuItem>
                                     <menuItem title="80%" keyEquivalent="8" id="l8g-Tj-uJL">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt80:" target="Voe-Tx-rLC" id="93L-4B-ncN"/>
                                         </connections>
                                     </menuItem>
                                     <menuItem title="90%" keyEquivalent="9" id="aeR-Hh-JNU">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt90:" target="Voe-Tx-rLC" id="i0m-fc-FT8"/>
                                         </connections>
                                     </menuItem>
                                     <menuItem title="100%" keyEquivalent="0" id="zrX-ya-I3p">
-                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                        <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES"/>
                                         <connections>
                                             <action selector="setAt100:" target="Voe-Tx-rLC" id="uoG-So-Ibj"/>
                                         </connections>
