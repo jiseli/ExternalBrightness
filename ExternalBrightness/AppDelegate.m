@@ -39,56 +39,56 @@
   eventType.eventKind = kEventHotKeyPressed;
   InstallApplicationEventHandler(&MyHotKeyHandler, 1, &eventType, NULL, NULL);
   
-  // Brightness Down: option + shift + left arrow
+  // Brightness Down: option + ctrl + shift + left arrow
   gMyHotKeyID.signature = 'hkdw';
   gMyHotKeyID.id = 11;
-  RegisterEventHotKey(123, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(123, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
-  // Brightness Up: option + shift + right arrow
+  // Brightness Up: option + ctrl + shift + right arrow
   gMyHotKeyID.signature = 'hkup';
   gMyHotKeyID.id = 12;
-  RegisterEventHotKey(124, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(124, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
-  // Set Brightness (option + shift + 1 [to 10])
+  // Set Brightness: option + ctrl + shift + [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
   gMyHotKeyID.signature = 'htk1';
   gMyHotKeyID.id = 1;
-  RegisterEventHotKey(18, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(18, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
   gMyHotKeyID.signature = 'htk2';
   gMyHotKeyID.id = 2;
-  RegisterEventHotKey(19, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(19, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
   gMyHotKeyID.signature = 'htk3';
   gMyHotKeyID.id = 3;
-  RegisterEventHotKey(20, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(20, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
   gMyHotKeyID.signature = 'htk4';
   gMyHotKeyID.id = 4;
-  RegisterEventHotKey(21, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(21, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
   gMyHotKeyID.signature = 'htk5';
   gMyHotKeyID.id = 5;
-  RegisterEventHotKey(23, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(23, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
   gMyHotKeyID.signature = 'htk6';
   gMyHotKeyID.id = 6;
-  RegisterEventHotKey(22, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(22, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
   gMyHotKeyID.signature = 'htk7';
   gMyHotKeyID.id = 7;
-  RegisterEventHotKey(26, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(26, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
   gMyHotKeyID.signature = 'htk8';
   gMyHotKeyID.id = 8;
-  RegisterEventHotKey(28, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(28, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
   gMyHotKeyID.signature = 'htk9';
   gMyHotKeyID.id = 9;
-  RegisterEventHotKey(25, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(25, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
   
   gMyHotKeyID.signature = 'htk0';
   gMyHotKeyID.id = 10;
-  RegisterEventHotKey(29, optionKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
+  RegisterEventHotKey(29, optionKey + controlKey + shiftKey, gMyHotKeyID, GetApplicationEventTarget(), 0, &gMyHotKeyRef);
 }
 
 OSStatus MyHotKeyHandler(EventHandlerCallRef nextHandler, EventRef theEvent, void *userData){
