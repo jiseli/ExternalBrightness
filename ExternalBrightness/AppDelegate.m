@@ -132,10 +132,12 @@ OSStatus MyHotKeyHandler(EventHandlerCallRef nextHandler, EventRef theEvent, voi
       break;
     case 11:
       brightnessValue = [AppDelegate readControlValue:0x10];
+      NSLog(@"Brightness value: %d", brightnessValue);
       [AppDelegate setBrightness: brightnessValue + 10];
       break;
     case 12:
       brightnessValue = [AppDelegate readControlValue:0x10];
+      NSLog(@"Brightness value: %d", brightnessValue);
       [AppDelegate setBrightness: brightnessValue - 10];
       break;
   }
@@ -164,51 +166,63 @@ OSStatus MyHotKeyHandler(EventHandlerCallRef nextHandler, EventRef theEvent, voi
 
 - (IBAction)increaseBrightness:(NSMenuItem *)sender {
   int brightnessValue = [AppDelegate readControlValue:0x10];
+  NSLog(@"Brightness value: %d", brightnessValue);
   [AppDelegate setBrightness: brightnessValue + 10];
 }
 
 - (IBAction)decreaseBrightness:(NSMenuItem *)sender {
   int brightnessValue = [AppDelegate readControlValue:0x10];
+  NSLog(@"Brightness value: %d", brightnessValue);
   [AppDelegate setBrightness: brightnessValue - 10];
 }
 
 - (IBAction)setAt10:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 10 percent");
   [AppDelegate setBrightness: 10];
 }
 
 - (IBAction)setAt20:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 20 percent");
   [AppDelegate setBrightness: 20];
 }
 
 - (IBAction)setAt30:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 30 percent");
   [AppDelegate setBrightness: 30];
 }
 
 - (IBAction)setAt40:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 40 percent");
   [AppDelegate setBrightness: 40];
 }
 
 - (IBAction)setAt50:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 50 percent");
   [AppDelegate setBrightness: 50];
 }
 
 - (IBAction)setAt60:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 60 percent");
   [AppDelegate setBrightness: 60];
 }
 
 - (IBAction)setAt70:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 70 percent");
   [AppDelegate setBrightness: 70];
 }
 
 - (IBAction)setAt80:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 80 percent");
   [AppDelegate setBrightness: 80];
 }
 
 - (IBAction)setAt90:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 90 percent");
   [AppDelegate setBrightness: 90];
 }
 
 - (IBAction)setAt100:(NSMenuItem *)sender {
+  NSLog(@"Set brightness to 100 percent");
   [AppDelegate setBrightness: 100];
 }
 

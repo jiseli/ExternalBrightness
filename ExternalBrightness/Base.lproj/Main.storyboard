@@ -663,7 +663,7 @@
                                 <action selector="increaseBrightness:" target="Voe-Tx-rLC" id="5OJ-sY-4GW"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Decrease Brightness" keyEquivalent="" id="NDW-jA-aKg">
+                        <menuItem title="Decrease Brightness" keyEquivalent="" id="NDW-jA-aKg">
                             <modifierMask key="keyEquivalentModifierMask" shift="YES" control="YES" option="YES"/>
                             <connections>
                                 <action selector="decreaseBrightness:" target="Voe-Tx-rLC" id="PXZ-Ag-3h6"/>
